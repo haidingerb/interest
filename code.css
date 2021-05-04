@@ -1,0 +1,17 @@
+
+body {
+  background-color: #d6f5d6;
+}
+header {
+  background-color: Yellow;
+  font-color: "#65FCBE";
+}
+h1{
+  text-align: center;
+  color: black;
+  font-size: "4.5px";
+}
+footer{
+  background-color: Green;
+  font-color: deeppink;
+}
