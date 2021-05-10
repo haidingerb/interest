@@ -2,15 +2,41 @@
 <html>
   <head>
     <link href-"css/code.css" type-"text/css" rel-"stylesheet" />
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 </head>
 <body>
   <h1> Amazon Devices </h1>
-  <h2> Amazon Alexa
-    <p>Alexa is a AI smart assistant which can be spoken to using the wake word "Alexa" she comes in many formats such as the echo, echo dot, echo show and more, and has a connection to the internet meaning she can answer virtually any question.
-
-  <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6430/6430063cv12d.jpg" alt="Trulli" width="500" height="333" style = "float: right;">
-  </h2>
-  </p>
+  <h2> Amazon Alexa </h2>
+    <p>Alexa is a AI smart assistant which can be spoken to using the wake word "Alexa" she comes in many formats such as the echo, echo dot, echo show and more, and has a connection to the internet meaning she can answer virtually any question. </p>
+  <div class="row">
+  <div class="column">
+    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6430/6430063cv12d.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://static.bhphoto.com/images/images2500x2500/1572984388_1512898.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.ebayimg.com/images/g/QKIAAOSwQFBfECU0/s-l640.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+  
 
 </body>
 </html>
